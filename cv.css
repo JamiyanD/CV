@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: rgb(249, 242, 234);
+    width: 1000px;
+    margin: 0 auto;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.leftside{
+    margin-top:100px;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(255, 145, 0);
+    margin: 75px 20px 0 20px;
+    padding:  0 20px 20px 20px;
+   
+}
+.rightside{
+    margin-top:100px;
+    width: 70%;
+    background-color: rgb(249, 242, 234);
+    height: 100vh;
+    padding: 20px;
+}
+.image{
+    width: 100%;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+.imageborder{
+    border: 10px solid orange;
+    width: 300px;
+    border-radius: 50%;
+    position: relative;
+    right: 50px;
+    bottom: 75px;
+
+}
+.leftside p{
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+.leftside ul{
+    list-style: none;
+    color: white;
+    font-size: large;
+
+}
+.leftside ul li {
+    margin-top: 10px;
+    position: relative;
+    right: 40px;
+    margin-right: 30px;
+    width: 100%;
+
+}
+.rightside section h2 {
+    color: orange;
+    font-size: 32px;
+}
+.rightside section li{
+    list-style: none;
+    position: relative;
+    right: 40px;
+    font-size: large;
+}
+.rightside h1 {
+    font-size: 48px;
+}
+.rightside p{
+    font-size: large;
+}
+
